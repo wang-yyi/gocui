@@ -1,4 +1,4 @@
-module github.com/wang-yyi/gocui
+module github.com/jroimartin/gocui
 
 go 1.16
 
