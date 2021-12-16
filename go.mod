@@ -1,5 +1,9 @@
-module github.com/wang-yyi/gocui
+module github.com/jroimartin/gocui
 
 go 1.16
 
 require github.com/nsf/termbox-go v1.1.1
+
+replace (
+	github.com/jroimartin/gocui latest => github.com/wang-yyi/gocui latest
+)
